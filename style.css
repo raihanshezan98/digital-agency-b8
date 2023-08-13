@@ -146,4 +146,29 @@
     margin-bottom: 10px;
  }
 
+ /* appointment styles */
+
+ .appointment-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    padding: 35px;
+    color: white;
+    margin-top: -50px;
+ }
+
+ .phone-call {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+ }
+
+ .appointment-description {
+    width: 45%;
+    margin: auto;
+ }
  
