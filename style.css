@@ -5,14 +5,9 @@
  }
 
  .primary {
-    color: red;
+     color: red;
  }
 
- .btn {
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
- }
 
  /* header styles */
 
@@ -43,24 +38,112 @@
  }
 
  .banner-info {
-    text-align: center;
-    position: absolute;
-    margin: 300px 400px;
+     text-align: center;
+     position: absolute;
+     margin: 300px 400px;
  }
 
  .title {
-    color: white;
-    font-size: 70px;
-    font-weight: bold;
+     color: white;
+     font-size: 70px;
+     font-weight: bold;
  }
 
  .description {
-    color: white;
-    padding: 10px;
+     color: white;
+     padding: 10px;
  }
 
- .bg-btn {
-    background-color: red;
-    color: white;
-    margin-right: 10px;
+  .btn {
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
  }
+
+
+ .bg-btn {
+     background-color: red;
+     color: white;
+     margin-right: 10px;
+ }
+
+ /* main styles  */
+
+ .service-container {
+     height: 100vh;
+     background-image: url("asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+     background-blend-mode: overlay;
+     background-size: cover;
+     background-position: center;
+     color: white;
+     display: flex;
+     align-items: center;
+     padding: 20px;
+ }
+
+ .box {
+     background-color: white;
+     color: black;
+     width: 200px;
+     height: 150px;
+     padding: 60px;
+     text-align: center;
+     border-radius: 5px;
+ }
+
+ .icon {
+     width: 80px;
+     margin-bottom: 20px;
+ }
+
+ .service-description {
+    width: 50%;
+    margin-bottom: 15px;
+ }
+
+ .left-side-service-container ol {
+    margin-bottom: 25px;
+ }
+
+
+ .first-two-boxes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+ }
+
+ .director-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .director-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid red;
+    padding-right: 70px;
+ }
+
+ .director-photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+ }
+
+ .service-btn {
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+ }
+
+ .service-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+
+ 
